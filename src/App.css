@@ -1,0 +1,101 @@
+body {
+  background-color: rgb(223, 222, 222);
+  color: #fff;
+}
+
+.App {
+  text-align: center;
+}
+
+.taskBg {
+  background-color: rgb(255, 255, 255);
+  border-radius: 6px;
+  margin-bottom: 20px;
+  padding: 10px 140px 10px 15px;
+  text-align: left;
+  font-size: 22px;
+  position: relative;
+}
+
+.taskBg div {
+  display: flex;
+  align-items: center;
+}
+
+.taskNumber {
+  color: rgb(0, 0, 0);
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 50%;
+  width: 26px;
+  height: 26px;
+  display: flex;
+  text-align: center;
+  font-size: 14px;
+  margin-right: 8px;
+  align-items: center;
+  justify-content: center;
+}
+
+.taskBg .taskText {
+  flex: 1;
+  color: rgb(0, 0, 0);
+  
+}
+
+.taskBg .done .taskText {
+  text-decoration: line-through;
+  opacity: 0.3;
+}
+
+.taskBg .iconsWrap {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 15px;
+  width: auto;
+  display: inline-block;
+}
+
+.taskBg .iconsWrap span {
+  display: inline-block;
+  margin: 0px 10px 0 10px;
+  cursor: pointer;
+  color: #000dff;
+}
+
+.taskBg .iconsWrap span:hover {
+  color: yellow;
+}
+
+.mr-20 {
+  margin-right: 20px;
+}
+
+.nav-me{
+  background-color: #333;
+}
+
+.navbar {
+  background-color: rgb(0, 0, 0);
+  color: #fff;
+}
+
+.navbar-brand {
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-link {
+  color: rgb(1, 1, 1) !important; /* !important to override Bootstrap's default styles */
+  font-size: 18px;
+}
+
+.navbar-toggler-icon {
+  background-color: #fff;
+}
+
+
+
+
+
